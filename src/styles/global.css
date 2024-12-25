@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: "Inter", "Roboto", "Arial", sans-serif;
+    background-color: #f8fafc;
+  }
+  
+  :root {
+    --primary-color: #2563eb;
+    --primary-light: #3b82f6;
+    --primary-dark: #1d4ed8;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --info-color: #0ea5e9;
+    --text-primary: rgba(0, 0, 0, 0.87);
+    --text-secondary: rgba(0, 0, 0, 0.6);
+  }

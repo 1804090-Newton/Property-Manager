@@ -1,0 +1,64 @@
+.property-card {
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .property-status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .property-status-badge.success {
+    background-color: var(--success-color);
+  }
+  
+  .property-status-badge.warning {
+    background-color: var(--warning-color);
+  }
+  
+  .property-status-badge.default {
+    background-color: #9ca3af;
+  }
+  
+  .property-info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .property-info-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .property-icon {
+    margin-right: 0.75rem;
+    color: var(--text-secondary);
+    font-size: 1.25rem;
+  }
+  
+  .property-text {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  

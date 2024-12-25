@@ -1,0 +1,15 @@
+.app-header {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  .app-title {
+    flex-grow: 1;
+    color: var(--text-primary);
+  }
+  
+  .main-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
